@@ -1,0 +1,59 @@
+
+HTML elements --> opening tag + content + closing tag
+ex: <h1> This is heading </h1>
+
+HTML Attributes(It is enclosed inside the opening tag )
+Example :- <Tag attribute = Value> Content </a>				
+				|
+	   <a href = "www.google.com"> click here to opengoogle browser </a>
+
+
+------ HTML Headings -------
+HTML Tags --> Building blocks 
+ex: <h1>, <p>.....
+
+
+------ HTML VOID elements -----
+<hr/> --> Horizontal Rule Element 
+<br/> --> Break the line 
+
+
+----- List Elements -------
+Two Types of lists 
+1, Ordered Lists  --> <ol> ... <ol/>
+   List item == <li> .... <li/> (In between The List Type)
+--> We can use start="5" attribute inside the <ol ... > Tag To spwcify starting number of the list
+
+2, Unordered Lists --> <ul> ... <ul/>
+----> Nested Lists(list inside list)
+we must define a nested inside a list item tag for example 
+Code:
+<ul>
+<li> A
+	<ol>          --,
+	<li>A1</li>     | NESTED 
+	<li>A2</li>	| LIST
+	</ol>	      --'
+</li>
+<li> B </li>
+<li> C </li>
+</ul>
+
+Output:
+A 
+	1,A1
+	2,A2
+B
+C
+
+
+---- Anchor Elements -----
+<a href="www.google.com"> Click here to browse on Google</a>
+Output: Click here to browse on Google
+
+---- Image Element ------
+--> It is a Void Element Which doesn't have closing Tag 
+--> <img scr= "Image URL">
+--> (alt) Attribute is Called alternative text description prints when th Provided URL is not Loaded due to any issues.
+
+
