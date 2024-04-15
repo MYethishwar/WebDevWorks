@@ -1,0 +1,55 @@
+======== Cascading Style Sheets(CSS) =========
+
+There are Three ways to add CSS to Html code
+1, Inline --> Targeted to single element
+
+<h1 style="color: blue;">Style Me in Blue!</h1>
+
+2, Internal --> Targeted to Single Web page
+
+  <style>
+    h1 {
+      color: red;
+    }
+  </style>
+
+3, EnternaL --> Targeted to Multipage Websites
+
+ <link rel="stylesheet" href="./style.css" />
+style.css: html { 
+		  color:blue;
+                 }
+
+--------------- CSSSelectors ----------------
+
+1, Element selector:-  Targets elements based on their html tag elements.
+
+p {
+    color: blue;
+}
+
+2, Class selector:- target elements based on the value of the class element.
+
+.highlight {
+    background-color: yellow;
+}
+
+3, ID selector:- Target elements based on the value of the id attribute 
+
+#header {
+    font-size: 24px;
+}
+
+4, Attribute selector:- Target elements based on their attributes and values.
+
+input[type="text"] {
+    border: 1px solid black;
+}
+
+5, Universal selector:- targets all elements.
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
