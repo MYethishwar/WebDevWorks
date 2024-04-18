@@ -21,4 +21,4 @@
 
 **Description**: Colorhunt is a website where we can find beautiful and ready-to-use color combinations for our design projects.
 
-[Try Lorem Ipsum](colorhunt.co)👈
+[Try Lorem Ipsum](https://colorhunt.co/)👈
