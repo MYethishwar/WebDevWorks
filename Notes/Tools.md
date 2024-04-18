@@ -15,3 +15,10 @@
 **Description**: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
 [Try Lorem Ipsum](https://www.lipsum.com/)👈
+
+
+## Color Hunt
+
+**Description**: Colorhunt is a website where we can find beautiful and ready-to-use color combinations for our design projects.
+
+[Try Lorem Ipsum](colorhunt.co)👈
