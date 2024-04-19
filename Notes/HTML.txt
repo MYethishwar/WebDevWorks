@@ -68,3 +68,4 @@ Output: Click here to browse on Google
 2, Absolute File Paths: Complete path including Root directory.
 
 ---- HTML Boilerplate ----
+An HTML boilerplate is a standardized template that serves as a starting point for creating web pages. 
