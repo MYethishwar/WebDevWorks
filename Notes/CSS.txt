@@ -20,7 +20,7 @@ style.css: html {
 		  color:blue;
                  }
 
---------------- CSSSelectors ----------------
+--------------- CSS Selectors ----------------
 
 1, Element selector:-  Targets elements based on their html tag elements.
 
@@ -49,7 +49,32 @@ input[type="text"] {
 5, Universal selector:- targets all elements.
 
 * {
-    margin: 0;
-    padding: 0;
-}
+  properties here
+    }
 
+
+------------------- Font Properties ------------------------
+1,Font Size:- 
+	1px = 1/96th of inch
+	1pt = 1/72th of inch	
+	1em = 100% of parent (head element)
+	1rem = 100% of Root parent (html element) 
+2,Font weight:- 
+	normal
+	bold
+	lighter
+	bolder
+	any number(100 - 900)
+*3,Font Family:-
+	The general font family which is used is sans-serif or serif preceeding with helvetica
+4,Text align:-
+	center 
+	right	
+	left
+
+------------------ Inspecting CSS file in browser -------------------------
+----> Command that allows you to  directly open CSS code:- (Ctrl + Shift + I)
+-> Click on the Three dots located at the right cornor.
+-> Inside that there is a option called more tools Click.
+-> Here we see option called Developer Tools.
+We can also use by clicking directly right click ->  inspect.
