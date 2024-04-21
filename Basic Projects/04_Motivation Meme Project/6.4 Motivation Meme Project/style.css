@@ -1,0 +1,28 @@
+.poster {
+  background-color: black;
+  margin-top: 100px;
+  margin-left: 25%;
+  font-family: "Libre Baskerville", serif;
+  width: 50%;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 45px;
+  width: 100%;
+}
+
+.yethish {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+img {
+  border: 5px solid white;
+  border-radius: 10px;
+  width: 100%;
+}
+body {
+  background-color: black;
+}
