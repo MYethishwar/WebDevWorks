@@ -78,3 +78,7 @@ input[type="text"] {
 -> Inside that there is a option called more tools Click.
 -> Here we see option called Developer Tools.
 We can also use by clicking directly right click ->  inspect.
+-------------------- CSS Cascade ---------------------------
+
+
+--------------------CSS Positioning --------------------+--+
