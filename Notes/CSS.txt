@@ -21,7 +21,6 @@ style.css: html {
                  }
 
 --------------- CSS Selectors ----------------
-
 1, Element selector:-  Targets elements based on their html tag elements.
 
 p {
@@ -78,7 +77,23 @@ input[type="text"] {
 -> Inside that there is a option called more tools Click.
 -> Here we see option called Developer Tools.
 We can also use by clicking directly right click ->  inspect.
--------------------- CSS Cascade ---------------------------
 
-
---------------------CSS Positioning -------------------
+------------------------ CSS cascade -----------------------------
+-> Cascade means nothing but a waterfall if we assign a property for an element twice or trice which one is considered first and which one is next that is cascade.
+---> It is determined by four parts:
+1, Poistion:
+	li {
+	color:blue;
+	color:red;  <--- Considered and applied.
+2,Specificity:
+	element selector
+	Class selector
+	Attribute Selector
+	Id selector  <--- Considered and applied.
+3,Type:
+	External
+	Internal
+	Inline  <--- Considered and applied.
+4,Importance:
+	color: red;
+	color: blue !important;   <--- This key word makes this line to be considered no matter if the other types are come ahead.
