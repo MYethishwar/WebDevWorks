@@ -97,3 +97,13 @@ We can also use by clicking directly right click ->  inspect.
 4,Importance:
 	color: red;
 	color: blue !important;   <--- This key word makes this line to be considered no matter if the other types are come ahead.
+
+-------------------------CSS Positioning -------------------------------
+
+1,Static: Default position 
+2,Relative: Position  which is displaced from the static position.
+3,absolute: Position relative to nearest positiones ancestor.(By default Left cornor).
+*Z-Index :- Imagine 3D graph where we can mention depth of the containers here.
+4,Fixed: Relative to the top left cornor of the browser window.(Even if we scorll up and down it is not going to move it's place.
+
+https://diana-adrianne.com/purecss-lace/  (A beautiful picture which is done using only css).
