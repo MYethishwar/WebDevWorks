@@ -99,7 +99,6 @@ We can also use by clicking directly right click ->  inspect.
 	color: blue !important;   <--- This key word makes this line to be considered no matter if the other types are come ahead.
 
 -------------------------CSS Positioning -------------------------------
-
 1,Static: Default position 
 2,Relative: Position  which is displaced from the static position.
 3,absolute: Position relative to nearest positiones ancestor.(By default Left cornor).
@@ -107,3 +106,14 @@ We can also use by clicking directly right click ->  inspect.
 4,Fixed: Relative to the top left cornor of the browser window.(Even if we scorll up and down it is not going to move it's place.
 
 https://diana-adrianne.com/purecss-lace/  (A beautiful picture which is done using only css).
+
+------------------------ CSS Display --------------------------------------
+There are three main different values for display property ...
+1, Block  <---- Which takes all line of the web page and we can specify height and width.
+2, Inline <---- Takes up as much space as necessary as per the content inside.
+3, Inline-block  <---- combination of first two.(It means it Don't start in the new line)
+
+------------------------- CSS Float -----------------------------------------
+It is a property which makes image to stick right or left side of the web page.
+-> This is used when we want a paragraph surrounded by a image on the right side and also below of that image.
+CSS clear property :- It is used to clear the contents what ever is present in the left or right or both. Example:- placing footer at the bottom of the webpage.
