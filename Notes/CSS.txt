@@ -117,3 +117,13 @@ There are three main different values for display property ...
 It is a property which makes image to stick right or left side of the web page.
 -> This is used when we want a paragraph surrounded by a image on the right side and also below of that image.
 CSS clear property :- It is used to clear the contents what ever is present in the left or right or both. Example:- placing footer at the bottom of the webpage.
+
+------------------- How to create responsive websites ----------------------
+Responsive Website:- Organize the web in any type of screen sizes like Tablet, Laptop, Mobile Phone.
+To make our website responsive we have 4 techniques or type
+1, Media queries
+2, CSS grid
+3, CSS Flexbox
+4, External Frameworks Eg. Bootstrap
+
+------------------------- Media Queries(@media) ------------------------------
