@@ -127,3 +127,4 @@ To make our website responsive we have 4 techniques or type
 4, External Frameworks Eg. Bootstrap
 
 ------------------------- Media Queries(@media) ------------------------------
+We use "@media" keyword to make our web responsive
