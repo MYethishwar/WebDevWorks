@@ -127,4 +127,7 @@ To make our website responsive we have 4 techniques or type
 4, External Frameworks Eg. Bootstrap
 
 ------------------------- Media Queries(@media) ------------------------------
+Syntax:  @media min-width: 200px or max-width: 600px {
+	#Here is the instructions which are to be considered if the above condition get satisfied
+	}
 We use "@media" keyword to make our web responsive
