@@ -158,7 +158,7 @@ Syntax:
 😊Flex display:- by declaring display = flex in a container it makes all the blocks in the container in a row systematically
 😊Flex Direction:- by default the flex items are organized in a row(left to right) but in order to make it column wise(top to bottom) we declare value as a column.
 ❤️Flex-basis:- It is like a height of a flex element in case of flex-direction is row, it will control width. In case of flex-column it will control height.
-                               😊Flex-Layout😊
+-------------------------- 😊Flex-Layout😊 --------------------------
 ❤️order:- By default the order of each child flex item is 0 so based on the number it is placed accordingly.it is like indexing the flex elements wherever we want.
 ❤️Flex-wrap:- When the child items exceeds the page then if we declare flex-wrap to wrap then it directs bottom in the web page.
 ❤️Justify-content:- 
