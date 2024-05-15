@@ -177,6 +177,16 @@ Syntax:
 	- stretch
 -> align-self:- is used to modify the child item either to align start, end or center...
 ❤️align-content- alignment of the wrapped items.
-😊Flex-sizing:- 
+                                😊Flex-sizing😊
+🌻PRIORITY LIST:- [content-width < width < flex-basis < (min-width/max-width).]🌻
+
+💜By default max-width is th length of the sentense.
+💜min-width is the length of the longest wordf in that that sentense.
+💜max-width is the value which works as even if there is a space to grow the flex-elements it is not going to grow it will stop with that specified value.
+💜Min-width determines that the how small each of the items can shrink to.
+                                😊Grow and shrink😊
+❤️flex-grow:- it means that the flex item can grow proportionally to the available space along the main axis of the flex container. 
+❤️flex-shrink:- When you assign a value to flex-shrink, it determines how much a flex item should shrink relative to the other flex items in the container when there's not enough space along the main axis.
+🌻Short form :- flex: 1 1 0;
 
 ------------------------------- GRID -----------------------------------------
