@@ -19,16 +19,6 @@ footer {
   color: midnightblue;
 }
 
-.tile-image {
-  height: 200px;
-  float: left;
-  margin-right: 50px;
-}
-
-.card {
-  width: 45%;
-}
-
 .left {
   float: left;
 }
@@ -36,32 +26,32 @@ footer {
 .right {
   float: right;
 }
-
-.creative {
-  color: midnightblue;
+.card {
+  width: 45%;
 }
 
-@media (max-width: 680px) {
-  .logo {
-    width: 100px;
-  }
+.creative {
+  color: darkblue;
+}
+.tile-image {
+  float: left;
+  height: 200px;
+  width: 300px;
+  margin-right: 50px;
+}
 
+@media (max-width: 426px) {
+  body {
+    background-color: aqua;
+  }
   h1 {
-    font-size: 3.5rem;
     text-align: center;
+    font-size: 56px;
   }
-
-  .card {
-    width: 100%;
+  .left {
     display: block;
-    margin-bottom: 30px;
-    text-align: justify;
   }
-
-  .card img {
-    margin-bottom: 10px;
-    width: 100%;
-    display: inline;
-    object-fit: cover;
+  .right {
+    display: block;
   }
 }
