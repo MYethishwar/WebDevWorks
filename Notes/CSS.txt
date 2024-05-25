@@ -189,4 +189,4 @@ Syntax:
 ❤️flex-shrink:- When you assign a value to flex-shrink, it determines how much a flex item should shrink relative to the other flex items in the container when there's not enough space along the main axis.
 🌻Short form :- flex: 1 1 0;
 
-------------------------------- GRID -----------------------------------------
+------------------------------- GRID --------------------------------------
