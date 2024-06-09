@@ -123,14 +123,14 @@ Note:- We can also write like this for all box models  [border size of top size 
 *Z-index :- Imagine 3D graph where we can mention depth of the containers here.
 4,Fixed: Relative to the top left cornor of the browser window.(Even if we scorll up and down it is not going to move it's place.
 
-https://diana-adrianne.com/purecss-lace/  (A beautiful picture which is done using only css).
+https://diana-adrianne.com/purecss-lace/  (A beautiful picture which is done using only CSS).
 
 ------------------------ CSS Display --------------------------------------
 There are three main different values for display property ...
 Syntax: display: block or inline or block-inline.
-1, Block  <---- Which takes all line of the web page and we can specify height and width.
-2, Inline <---- Takes up as much space as necessary as per the content inside.
-3, Inline-block  <---- combination of first two.(It means the block Don't start in the new line)
+1️⃣, Block  <---- Which takes all line of the web page and we can specify height and width.
+2️⃣, Inline <---- Takes up as much space as necessary as per the content inside.
+3️⃣, Inline-block  <---- combination of first two.(It means the block Don't start in the new line)
 
 ------------------------- CSS Float -----------------------------------------
 It is a property which makes image to stick right or left side of the web page.
@@ -141,10 +141,10 @@ CSS clear property :- It is used to clear the contents what ever is present in t
 ------------------- How to create responsive websites ----------------------
 Responsive Website:- Organize the web in any type of screen sizes like Tablet, Laptop, Mobile Phone.
 To make our website responsive we have 4 techniques or type
-1, Media queries
-2, CSS grid
-3, CSS Flexbox
-4, External Frameworks Eg. Bootstrap
+1️⃣, Media queries
+2️⃣, CSS grid
+3️⃣, CSS Flexbox
+4️⃣, External Frameworks Eg. Bootstrap
 
 ------------------------- Media Queries(@media) ------------------------------
 Syntax:
@@ -157,36 +157,46 @@ Syntax:
 ------------------------- Flex Box ---------------------------------
 😊Flex display:- by declaring display = flex in a container it makes all the blocks in the container in a row systematically
 😊Flex Direction:- by default the flex items are organized in a row(left to right) but in order to make it column wise(top to bottom) we declare value as a column.
-❤️Flex-basis:- It is like a height of a flex element in case of flex-direction is row, it will control width. In case of flex-column it will control height.
--------------------------- 😊Flex-Layout😊 --------------------------
-❤️order:- By default the order of each child flex item is 0 so based on the number it is placed accordingly.it is like indexing the flex elements wherever we want.
-❤️Flex-wrap:- When the child items exceeds the page then if we declare flex-wrap to wrap then it directs bottom in the web page.
-❤️Justify-content:- 
+😊Flex-basis:- It is like a height of a flex element in case of flex-row, it will control width. In case of flex-column it will control height.
+                               😊Flex-Layout😊
+❤️order:- By default the order of each child flex item is 0 so based on the number it is placed accordingly.it is like indexing the flex elements as per requirement.
+❤️Flex-wrap:- When the child items exceeds the page then if we declare flex-wrap to wrap then it directs bottom to the web page.
+❤️Justify-content:- It is controlled in Main axis.
 	- flex-start (aligns at the start)
 	- center (aligns at the center)
 	- flex-end (aligns at the end)
 	- space between (generates space between the items ignoring around)
 	- space around (occupies off space at the start and the end)
 	- space evenly (occupies equal space between items)
-❤️align-items:- 
-	mention viewport height under the align-items property to apply these rules. 
+❤️align-items:- It is controlled in cross axis.
+	mention viewport height under the align-items property In order to increase background container. 
 	- flex-start
 	- flex-end
 	- baseline
 	- center
 	- stretch
--> align-self:- is used to modify the child item either to align start, end or center...
-❤️align-content- alignment of the wrapped items.
+-> align-self:- is used to modify the child item or a specific item either to align start, end or center...
+❤️align-content- the properties are active to the wrapped items.
                                 😊Flex-sizing😊
 🌻PRIORITY LIST:- [content-width < width < flex-basis < (min-width/max-width).]🌻
 
-💜By default max-width is th length of the sentense.
-💜min-width is the length of the longest wordf in that that sentense.
+💜By default max-width is the length of the sentence.
+💜min-width is the length of the longest word in that that sentence.
 💜max-width is the value which works as even if there is a space to grow the flex-elements it is not going to grow it will stop with that specified value.
 💜Min-width determines that the how small each of the items can shrink to.
                                 😊Grow and shrink😊
 ❤️flex-grow:- it means that the flex item can grow proportionally to the available space along the main axis of the flex container. 
 ❤️flex-shrink:- When you assign a value to flex-shrink, it determines how much a flex item should shrink relative to the other flex items in the container when there's not enough space along the main axis.
-🌻Short form :- flex: 1 1 0;
+🌻Short form :- flex: 1(grow) 1(shrink) 0(flex-basis);
 
 ------------------------------- GRID -----------------------------------------
+💚So in order to make our website more responsive we use Grid types layout.
+💚We can use combinations like Grid inside a flex or Flex inside a grid to achieve a task efficiently.
+.container {
+  display: grid;  //To make a container to follow grid layout.
+  grid-template-columns: 1fr 1fr;   //defining the ratio as a fraction unit defining along width.
+  grid-template-rows: 1fr 1fr;	  //defining row-wise height.  
+  gap: 15px;     //gap between the grid items.
+}
+
+
