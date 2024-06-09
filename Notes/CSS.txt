@@ -189,6 +189,7 @@ Syntax:
 ❤️flex-shrink:- When you assign a value to flex-shrink, it determines how much a flex item should shrink relative to the other flex items in the container when there's not enough space along the main axis.
 🌻Short form :- flex: 1(grow) 1(shrink) 0(flex-basis);
 
+<<<<<<< HEAD
 ------------------------------- GRID -----------------------------------------
 💚So in order to make our website more responsive we use Grid types layout.
 💚We can use combinations like Grid inside a flex or Flex inside a grid to achieve a task efficiently.
@@ -200,3 +201,6 @@ Syntax:
 }
 
 
+=======
+------------------------------- GRID --------------------------------------
+>>>>>>> 84c4941b5a8a55b6f8a16bf394f616acbd98af56
