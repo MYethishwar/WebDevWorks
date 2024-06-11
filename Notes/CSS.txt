@@ -146,7 +146,7 @@ To make our website responsive we have 4 techniques or type
 3️⃣, CSS Flexbox
 4️⃣, External Frameworks Eg. Bootstrap
 
-------------------------- Media Queries(@media) ------------------------------
+------------------------- Media Queries(@media) ---------🔗---------------------
 Syntax:
 @media (max-width: 600px) and (min-width: 200px){
 	#Screens which is visible when the above condition gets satisfied.
@@ -193,6 +193,7 @@ Syntax:
 ------------------------------- GRID -----------------------------------------
 💚So in order to make our website more responsive we use Grid types layout.
 💚We can use combinations like Grid inside a flex or Flex inside a grid to achieve a task efficiently.
+				😊Grid - sizing😊
 💚Below are the different type of values defined to achieve a particular task.
 🔗https://appbrewery.github.io/grid-sizing/
 .container {
@@ -201,15 +202,26 @@ Syntax:
   grid-template-rows: 1fr 1fr;	   //defining row-wise height.  
   gap: 15px;     //gap between the grid items.
 }   //It is going to maintain that defines ratio of screen size in case if we have content also it will adjust accordingly.
-2️⃣,grid-template-columns: 100px 200px;  //we can mention fixed size but it the grid items are not going to behave responisively.
+2️⃣,grid-template-columns: 100px 200px;  //we can mention fixed size bsut it the grid items are not going to behave responisively.
    grid-template-rows: 200px 200px;
 3️⃣,grid template: 100px 200px / 200px 300px; //Shortcut to minimize the above two lines of code.
-4️⃣,grid-template-rows: 100px auto;  //The first row will occupy 100px and second one is based on it's content.
+4️⃣,grid-template-rows: 100px auto;  //The firsit row will occupy 100px and second one is based on it's content.
    grid-template-columns:100px auto; //The first column will occupy the 100px size and second one will take wholw web.
 5️⃣,grid-template-rows: 100px 200px; 
    grid-template-columns: 100px minmax(300px, 500px);   //The second column will shrink of minimum size 300px and max of 500px.
 6️⃣,grid-template-rows: 100px repeat(2, 200px);  //It means 200px 200px
    grid-template-columns: 100px repeat(3, 500px); //It means 300px 300px 300px
-💚We can mention grod-auto-rows or columns to specify the size of the grid item which is exluded in the defined layout.
-  
- 
+💚We can mention grid-auto-rows or columns to specify the size of the grid item which is exluded in the defined layout.
+				😊Grid - Placement😊
+➡️	[ grid-coulumn: span 2; ]-> it is going to adjust the first cell by combining the size of the second column and move the second column to the right.
+-> It is same for row also.
+➡️ [ grid-column-start: 1; ]-> it is going to start from the 1st line.
+➡️ [ grid-column-end: 4; ]-> and going to end at the fourth line.
+📝 We can also define negative numbers which starts from the right side of the grid just like pythonn list indexing.
+📝 Just like flexbox in grid also we have order. if we make a grid cell with max order number then it is going to occupy bottom left place.
+➡️Instead of writing these blocks below 
+grid-column-start: 1;   ]
+grid-column-end: 2;     |--> grid-area: 3 / 1 / 4 / 2;
+grid-row-start: 3;      |
+grid-row-end: 4;        ]
+🔗https://appbrewery.github.io/gridgarden/  ---> Frog Exercise.
