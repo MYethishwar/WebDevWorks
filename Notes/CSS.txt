@@ -225,3 +225,4 @@ grid-column-end: 2;     |--> grid-area: 3 / 1 / 4 / 2;
 grid-row-start: 3;      |
 grid-row-end: 4;        ]
 🔗https://appbrewery.github.io/gridgarden/  ---> Frog Exercise.
+💪"Mondrian Compositions" 👈Google it for more practice exercises.
