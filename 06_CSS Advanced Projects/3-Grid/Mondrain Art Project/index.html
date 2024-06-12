@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      .container {
+        display: grid;
+        height: 748px;
+        width: 748px;
+        background-color: black;
+        grid-template-columns: 320px 198px 153px 20px;
+        grid-template-rows: 414px 130px 155px 22px;
+        gap: 9px;
+      }
+      .flexlayout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .red {
+        background-color: #e72f24;
+      }
+      .w {
+        background-color: #f0f1ec;
+      }
+      .blue {
+        background-color: #004592;
+      }
+      .yellow {
+        background-color: #f9d01e;
+      }
+      .black {
+        background-color: #232629;
+      }
+      .white1 {
+        grid-column: 2 / span 4;
+      }
+      .white2 {
+        grid-area: 2 / 1 / 4 / 2;
+      }
+      .white3 {
+        grid-area: 2 / 2 / 4 / 4;
+      }
+      .blue {
+        grid-area: 2 / 4 / 3 / 6;
+      }
+      .vwhite {
+        grid-area: 3 / 4 / 5 / 6;
+        border-top: 10px solid;
+      }
+      .yellow {
+        grid-area: 4 / 2 / 5 / 3;
+      }
+      .black {
+        grid-area: 4 / 3 / 5 / 4;
+      }
+      .hwhite {
+        grid-area: 4 / 1 / 5 / 2;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Write your HTML here -->
+    <div class="flexlayout">
+      <div class="container">
+        <div class="red"></div>
+        <div class="white1 w"></div>
+        <div class="white2 w"></div>
+        <div class="white3 w"></div>
+        <div class="blue"></div>
+        <div class="yellow"></div>
+        <div class="hwhite w"></div>
+
+        <div class="black"></div>
+        <div class="vwhite w"></div>
+      </div>
+    </div>
+  </body>
+</html>
