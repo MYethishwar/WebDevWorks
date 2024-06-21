@@ -225,4 +225,12 @@ grid-column-end: 2;     |--> grid-area: 3 / 1 / 4 / 2;
 grid-row-start: 3;      |
 grid-row-end: 4;        ]
 🔗https://appbrewery.github.io/gridgarden/  ---> Frog Exercise.
-💪"Mondrian Compositions" 👈Google it for more practice exercises.
+💪"Mondrian Compositions" 👈Google it for more practice exercises using GRID.
+
+----------------------------------- Bootstrap ------------------------------------
+skip
+----------------------------------- Principles of Web Design ---------------------------------
+1, Color theory
+2, Typography
+3, User Interface
+4, User Experience
