@@ -22,7 +22,7 @@
 
 ### [Try Google Fonts](https://fonts.google.com/)👈
 
-## Adibe Color
+## Adobe Color
 
 **Description**: We can pick a combination of consistent colors which ever we want.
 
