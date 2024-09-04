@@ -202,15 +202,21 @@ Syntax:
   grid-template-rows: 1fr 1fr;	   //defining row-wise height.  
   gap: 15px;     //gap between the grid items.
 }   //It is going to maintain that defines ratio of screen size in case if we have content also it will adjust accordingly.
+
 2️⃣,grid-template-columns: 100px 200px;  //we can mention fixed size bsut it the grid items are not going to behave responisively.
    grid-template-rows: 200px 200px;
+
 3️⃣,grid template: 100px 200px / 200px 300px; //Shortcut to minimize the above two lines of code.
+
 4️⃣,grid-template-rows: 100px auto;  //The firsit row will occupy 100px and second one is based on it's content.
    grid-template-columns:100px auto; //The first column will occupy the 100px size and second one will take wholw web.
+
 5️⃣,grid-template-rows: 100px 200px; 
    grid-template-columns: 100px minmax(300px, 500px);   //The second column will shrink of minimum size 300px and max of 500px.
+
 6️⃣,grid-template-rows: 100px repeat(2, 200px);  //It means 200px 200px
    grid-template-columns: 100px repeat(3, 500px); //It means 300px 300px 300px
+
 💚We can mention grid-auto-rows or columns to specify the size of the grid item which is exluded in the defined layout.
 				😊Grid - Placement😊
 ➡️	[ grid-coulumn: span 2; ]-> it is going to adjust the first cell by combining the size of the second column and move the second column to the right.
