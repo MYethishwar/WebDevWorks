@@ -69,3 +69,115 @@ Output: Click here to browse on Google
 
 ---- HTML Boilerplate ----
 An HTML boilerplate is a standardized template that serves as a starting point for creating web pages. 
+.background {
+  z-index: 0;
+  width: 100vh;
+  height: 100vh;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  margin-top: 6%;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.background,
+.flex-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Cover the entire container */
+  height: auto;
+}
+.iamyethishwar {
+  height: 50%;
+  width: 55%;
+  margin-left: 35px;
+}
+.photo {
+  justify-content: end;
+  margin-left: 20%;
+  margin-top: 5%;
+  height: 50%;
+  width: 15%;
+}
+
+p {
+  color: rgb(252, 253, 254);
+  font-size: 1.2vw;
+  font-family: "Roboto", sans-serif;
+}
+.paragraph-container {
+  position: relative;
+  display: flex;
+  gap: 7%;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 0.5%;
+  background-color: rgb(39, 38, 38);
+  border-radius: 10px;
+}
+
+a {
+  color: #333; /* Default text color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+
+
+
+
+
+
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yethishwar Portfolio</title>
+    <link rel="stylesheet" href="./stylesheet.css" />
+  </head>
+  <body>
+    <div class="root-container">
+      <!-- Your existing content -->
+      <img
+        class="background"
+        src="./assets/images/background.png"
+        alt="Black Background image"
+      />
+      <div class="paragraph-container">
+        <a download="Resume" href="./Madavaram_Yethishwar_Resume (1).pdf"
+          ><p>Resume</p></a
+        >
+        <a href="./about.html"><p>About Me</p></a>
+        <a href="./Education.html"><p>Education</p></a>
+        <a href="./Certificates.html"><p>Certificates & Training</p></a>
+        <!-- <a href="./Projects.html"><p>Projects</p></a> -->
+        <a href="./contact.html"><p>Contact Me</p></a>
+      </div>
+      <div class="flex-container">
+        <img
+          class="iamyethishwar"
+          src="./assets/images/i-am-yethishwar.png"
+          alt="I am yethishwar Font image"
+        />
+        <img
+          class="photo"
+          src="./assets/images/my-pic.png"
+          alt="Yethishwar Picture with a gold frame."
+        />
+      </div>
+    </div>
+  </body>
+</html>
