@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Race Registration Form</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f1f5f9, #e2e8f0);
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    form {
+      background-color: #ffffff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #1e293b;
+    }
+
+    h3 {
+      margin-top: 20px;
+      color: #334155;
+    }
+
+    label {
+      display: block;
+      margin: 12px 0 6px;
+      color: #0f172a;
+      font-weight: 500;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select,
+    input[type="file"] {
+      width: 100%;
+      padding: 10px 12px;
+      margin-bottom: 15px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      box-sizing: border-box;
+      transition: border 0.3s;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="password"]:focus,
+    select:focus,
+    input[type="file"]:focus {
+      border-color: #6366f1;
+      outline: none;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 8px;
+    }
+
+    .radio-label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      color: #475569;
+    }
+
+    input[type="submit"] {
+      background-color: #4f46e5;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+      width: 100%;
+      margin-top: 15px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #4338ca;
+    }
+
+    label[for="accept"] {
+      display: inline;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h1>Race Registration</h1>
+
+    <label for="firstname"><b>First Name:</b></label>
+    <input type="text" id="firstname" placeholder="ex: Yethishwar" />
+
+    <label for="lastname"><b>Last Name:</b></label>
+    <input type="text" id="lastname" placeholder="ex: Madavaram" />
+
+    <h3>Which race do you want to participate in?</h3>
+
+    <div class="radio-label">
+      <input type="radio" id="full" value="Full Marathon" name="race" />
+      <label for="full">Full Marathon</label>
+    </div>
+
+    <div class="radio-label">
+      <input type="radio" id="half" value="Half Marathon" name="race" />
+      <label for="half">Half Marathon</label>
+    </div>
+
+    <div class="radio-label">
+      <input type="radio" id="fun" value="Fun Run" name="race" />
+      <label for="fun">Fun Run</label>
+    </div>
+
+    <div class="radio-label">
+      <input type="radio" id="2k" value="2km Run" name="race" />
+      <label for="2k">2km Run</label>
+    </div>
+
+    <label for="email"><b>Email Address:</b></label>
+    <input type="email" placeholder="ex: yethishwar@gmail.com" id="email" />
+
+    <label for="password"><b>Password:</b></label>
+    <input type="password" id="password" placeholder="ex: Ws#1D*Y,$dw" />
+
+    <label for="age"><b>Select your age group:</b></label>
+    <select name="age" id="age">
+      <option value="under18">Under 18</option>
+      <option value="18-25">18–25</option>
+      <option value="26-40">26–40</option>
+      <option value="41-60">41–60</option>
+      <option value="60plus">60+</option>
+    </select>
+
+    <input id="accept" type="checkbox" />
+    <label for="accept">I accept the Terms & Conditions</label>
+
+    <label for="avatar">Choose a profile picture:</label>
+    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+
+    <input type="submit" value="Register Now" />
+  </form>
+</body>
+</html>
